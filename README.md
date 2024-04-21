@@ -35,21 +35,21 @@ et voila le test passe.
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/19f387ce-382c-46f8-8106-1b934f680d0a)
 
-3. Couverture des cas de test
+3. Execution des cas de test
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/691e4bba-eb9c-4f85-926d-1ff7819ae8fc)
 
 ### Exercice 2 : Écrire des tests unitaires pour une fonction de tri.
 
 1. La fonction trier en JS.
-   ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/ae493795-779c-4180-8e55-dbbc35435f02)
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/ae493795-779c-4180-8e55-dbbc35435f02)
 
-3.  cas de test.
+2. Cas de test.
 
    ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8bd5af9a-2783-405e-a79e-5c81dd2bc981)
    
 La fonction expect(value).toEqual(expected): Vérifie si value est égal à expected en effectuant une comparaison en profondeur pour les tableaux.
-5. Couverture des cas de test :
+3. Execution des cas de test :
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/50118c8e-0c7f-4f2b-aaa3-91b5bc7defdc)
 
@@ -63,5 +63,35 @@ La fonction expect(value).toEqual(expected): Vérifie si value est égal à expe
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/620c65dc-0772-4164-b567-23ade1dcaf0d)
 
+   - Test isPriceInRange avec price égal à min : Ce test vérifie si la fonction "isPriceInRange" renvoie true lorsque le prix est égal à la valeur minimale de la plage spécifiée.
+   - Test isPriceInRange avec price égal à max : Ce test vérifie si la fonction "isPriceInRange" renvoie true lorsque le prix est égal à la valeur maximale de la plage spécifiée.
+   - Test isPriceInRange avec price juste en dessous de min : Ce test vérifie si la fonction "isPriceInRange" renvoie false lorsque le prix est juste en dessous de la valeur minimale de la plage spécifiée.
+   - Test isPriceInRange avec price juste au-dessus de max : Ce test vérifie si la fonction "isPriceInRange" renvoie false lorsque le prix est juste au-dessus de la valeur maximale de la plage spécifiée.
+   - Test isPriceInRange avec price dans la plage : Ce test vérifie si la fonction "isPriceInRange" renvoie true lorsque le prix est dans la plage spécifiée.
+   - Test isPriceInRange avec price en dehors de la plage : Ce test vérifie si la fonction "isPriceInRange" renvoie false lorsque le prix est en dehors de la plage spécifiée.
+
+3. Execution des cas de test :
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/dfe7d0c7-917c-4003-9b76-a98205673a18)
+
+### Exercice4 :
+1.La fonction fetchRandomUser() utilise l'API "Random User Generator" pour récupérer les données d'un utilisateur aléatoire.
+Elle renvoie un objet JSON contenant des informations sur cet utilisateur.
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/9cbd6a1e-5454-4605-bf24-1cf14229931f)
+
+2.La fonction de test :
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/00e8f2fb-80d6-489c-9c3b-8cb5ee7a5c09)
+
+3. Execution des tests :
+
+   ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/d0b84999-dd94-4ba7-8b1b-5cc546e57a23)
+
+5. Couverture de code : 
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/499db217-f499-4914-9279-531022d8d128)
+
+Il permet la vérification du taux de code couvert par les tests unitaires – un indicateur de qualité de logiciel de plus en plus présent dans les projets
+
+## Travail à rendre
 
 
