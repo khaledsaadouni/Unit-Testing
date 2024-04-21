@@ -101,21 +101,21 @@ Il permet la vérification du taux de code couvert par les tests unitaires – u
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/b8629838-c234-458d-a41b-e6e232cf004c)
 
-   - fetchData : Cette fonction récupère des données à partir d'une URL en utilisant l'API Fetch d'JavaScript. Elle prend une URL en paramètre, envoie une requête GET à cette URL, puis traite la réponse. Si la réponse est réussie (status 200), elle convertit les données JSON et les renvoie. Sinon, elle lance une erreur.
-   -processData : Cette fonction prend un tableau de données en entrée et calcule la somme de toutes les valeurs du tableau à l'aide de la méthode reduce(). Elle retourne la somme calculée.
--   processDataAsync : Cette fonction est similaire à processData, mais elle travaille de manière asynchrone en retournant une promesse. Elle prend un tableau de données en entrée et retourne une promesse qui se résout avec la valeur maximale du tableau après une attente de 1 seconde. Si le tableau est vide, la promesse est rejetée avec un message indiquant "No data provided.".
-   -processDataError : Cette fonction prend un tableau de données en entrée et effectue une opération sur chaque élément du tableau, en multipliant chaque élément par 2. Si le tableau est vide ou non défini, elle lance une erreur avec le message "Invalid data provided.".
+- fetchData : Cette fonction récupère des données à partir d'une URL en utilisant l'API Fetch d'JavaScript. Elle prend une URL en paramètre, envoie une requête GET à cette URL, puis traite la réponse. Si la réponse est réussie (status 200), elle convertit les données JSON et les renvoie. Sinon, elle lance une erreur.
+-processData : Cette fonction prend un tableau de données en entrée et calcule la somme de toutes les valeurs du tableau à l'aide de la méthode reduce(). Elle retourne la somme calculée.
+-processDataAsync : Cette fonction est similaire à processData, mais elle travaille de manière asynchrone en retournant une promesse. Elle prend un tableau de données en entrée et retourne une promesse qui se résout avec la valeur maximale du tableau après une attente de 1 seconde. Si le tableau est vide, la promesse est rejetée avec un message indiquant "No data provided.".
+-processDataError : Cette fonction prend un tableau de données en entrée et effectue une opération sur chaque élément du tableau, en multipliant chaque élément par 2. Si le tableau est vide ou non défini, elle lance une erreur avec le message "Invalid data provided.".
 
 2. Les cas de test :
    
    ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/d2ba668e-5e7f-4be3-9f9a-929124f1c42a)
-   
-   - Test fetchData with valid URL : Ce test vérifie si la fonction "fetchData" récupère avec succès des données à partir d'une URL valide. Il utilise l'URL "https://jsonplaceholder.typicode.com/posts" comme exemple. Il s'attend à ce que les données renvoyées ne soient pas nulles (not.toBeNull()) et à ce qu'elles aient une longueur supérieure à zéro (toBeGreaterThan(0)).
-   - Test processData with valid data : Ce test vérifie si la fonction "processData" calcule correctement la somme des valeurs d'un tableau de données valide. Il utilise le tableau [1, 2, 3, 4, 5] comme exemple et s'attend à ce que la somme soit égale à 15.
-   - Test processDataAsync with valid data : Ce test vérifie si la fonction asynchrone "processDataAsync" retourne correctement la valeur maximale d'un tableau de données valide. Il utilise le tableau [10, 20, 30, 40, 50] comme exemple et attend que la valeur maximale soit égale à 50.
-   - Test processDataError with invalid data : Ce test vérifie si la fonction "processDataError" lance correctement une erreur lorsque des données invalides sont fournies. Il utilise un tableau vide comme exemple et vérifie si une erreur avec le message "Invalid data provided." est lancée lors de l'appel de la fonction.
 
-3. Execution des tests :
+- Test fetchData with valid URL : Ce test vérifie si la fonction "fetchData" récupère avec succès des données à partir d'une URL valide. Il utilise l'URL "https://jsonplaceholder.typicode.com/posts" comme exemple. Il s'attend à ce que les données renvoyées ne soient pas nulles (not.toBeNull()) et à ce qu'elles aient une longueur supérieure à zéro (toBeGreaterThan(0)).
+- Test processData with valid data : Ce test vérifie si la fonction "processData" calcule correctement la somme des valeurs d'un tableau de données valide. Il utilise le tableau [1, 2, 3, 4, 5] comme exemple et s'attend à ce que la somme soit égale à 15.
+- Test processDataAsync with valid data : Ce test vérifie si la fonction asynchrone "processDataAsync" retourne correctement la valeur maximale d'un tableau de données valide. Il utilise le tableau [10, 20, 30, 40, 50] comme exemple et attend que la valeur maximale soit égale à 50.
+- Test processDataError with invalid data : Ce test vérifie si la fonction "processDataError" lance correctement une erreur lorsque des données invalides sont fournies. Il utilise un tableau vide comme exemple et vérifie si une erreur avec le message "Invalid data provided." est lancée lors de l'appel de la fonction.
+
+4. Execution des tests :
 
 
    
