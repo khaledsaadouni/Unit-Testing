@@ -14,7 +14,7 @@
    
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8030281f-3958-4ca6-8dce-89b05d0c7f9d)
 
-En effet, la fonction "test" prend en paramètres une description du test à effectuer et une fonction de test qui contient le code du test lui-même. Dans ce cas, le test vérifie si l'addition de 2 et 3 à l'aide de la fonction "add" produit le résultat attendu, qui est 5. Si le résultat de l'addition est effectivement égal à 5, le test passe ; sinon, il échoue.
+En effet, la fonction "test" prend en paramètres une description du test à effectuer et une fonction de test qui contient le code du test lui-même. Dans ce cas, le test vérifie si l'addition de 2 et 3 à l'aide de la fonction "add" produit le résultat attendu, qui est 5. Si le résultat de l'addition est effectivement égal à 5, le test passe ; sinon, il échoue. La fonction expect(value).toBe(expected): Vérifie si value est strictement égal à expected.
 
 9. Exécuter le test avec la commande `npm run test` ### Utilisation des assertions pour vérifier les résultats attendus.
 
@@ -22,5 +22,20 @@ En effet, la fonction "test" prend en paramètres une description du test à eff
 
 et voila le test passe.
 
-### Activité-1
+### Activité-1 : Écrire des tests unitaires pour une fonction de manipulation de chaînes.
+
+1.La fonction transformer qui transforme une chaine de caractères en Majuscule :
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/4e6cc097-3672-422b-840e-b4629ba23d48)
+
+2.Trois cas de tests unitaires pour la fonction transformer :
+   - Une chaîne vide.
+   - Une chaîne avec des caractères en minuscules.
+   - Une chaîne avec des caractères spéciaux.
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/19f387ce-382c-46f8-8106-1b934f680d0a)
+
+3. Couverture des cas de test
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/691e4bba-eb9c-4f85-926d-1ff7819ae8fc)
 
