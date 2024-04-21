@@ -115,11 +115,8 @@ Il permet la vérification du taux de code couvert par les tests unitaires – u
 - Test processDataAsync with valid data : Ce test vérifie si la fonction asynchrone "processDataAsync" retourne correctement la valeur maximale d'un tableau de données valide. Il utilise le tableau [10, 20, 30, 40, 50] comme exemple et attend que la valeur maximale soit égale à 50.
 - Test processDataError with invalid data : Ce test vérifie si la fonction "processDataError" lance correctement une erreur lorsque des données invalides sont fournies. Il utilise un tableau vide comme exemple et vérifie si une erreur avec le message "Invalid data provided." est lancée lors de l'appel de la fonction.
 
-4. Execution des tests :
 
-
-   
-5. Couverture du code :
+4. Couverture du code :
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/9bffd270-3b03-4dd0-95c6-6af65dc616cb)
 
