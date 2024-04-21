@@ -7,8 +7,13 @@
 3. Créer un dossier `test`, sous lequel créer un fichier que vous nommez `math.test.js`.
 4. Suivre les étapes mentionnées dans la section 2 pour installer Vitest.
 5. Modifier le fichier package.json pour ajouter la section "scripts", Ajoutez la section "scripts" dans votre fichier package.json  :
-![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/9fef1b92-cc40-4bb0-ac2d-78587cea91e6)
-6. Copier le code ci-dessus pour tester la fonction `add`.
-![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8030281f-3958-4ca6-8dce-89b05d0c7f9d)
-7. Exécuter le test avec la commande `npm run test` ### Utilisation des assertions pour vérifier les résultats attendus.
 
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/9fef1b92-cc40-4bb0-ac2d-78587cea91e6)
+
+7. Copier le code ci-dessus pour tester la fonction `add`:
+   
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8030281f-3958-4ca6-8dce-89b05d0c7f9d)
+
+9. Exécuter le test avec la commande `npm run test` ### Utilisation des assertions pour vérifier les résultats attendus.
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/6941d406-c758-4e5e-814c-34ad40829287)
