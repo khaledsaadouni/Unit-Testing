@@ -102,9 +102,9 @@ Il permet la vérification du taux de code couvert par les tests unitaires – u
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/b8629838-c234-458d-a41b-e6e232cf004c)
 
 - fetchData : Cette fonction récupère des données à partir d'une URL en utilisant l'API Fetch d'JavaScript. Elle prend une URL en paramètre, envoie une requête GET à cette URL, puis traite la réponse. Si la réponse est réussie (status 200), elle convertit les données JSON et les renvoie. Sinon, elle lance une erreur.
--processData : Cette fonction prend un tableau de données en entrée et calcule la somme de toutes les valeurs du tableau à l'aide de la méthode reduce(). Elle retourne la somme calculée.
--processDataAsync : Cette fonction est similaire à processData, mais elle travaille de manière asynchrone en retournant une promesse. Elle prend un tableau de données en entrée et retourne une promesse qui se résout avec la valeur maximale du tableau après une attente de 1 seconde. Si le tableau est vide, la promesse est rejetée avec un message indiquant "No data provided.".
--processDataError : Cette fonction prend un tableau de données en entrée et effectue une opération sur chaque élément du tableau, en multipliant chaque élément par 2. Si le tableau est vide ou non défini, elle lance une erreur avec le message "Invalid data provided.".
+- processData : Cette fonction prend un tableau de données en entrée et calcule la somme de toutes les valeurs du tableau à l'aide de la méthode reduce(). Elle retourne la somme calculée.
+- processDataAsync : Cette fonction est similaire à processData, mais elle travaille de manière asynchrone en retournant une promesse. Elle prend un tableau de données en entrée et retourne une promesse qui se résout avec la valeur maximale du tableau après une attente de 1 seconde. Si le tableau est vide, la promesse est rejetée avec un message indiquant "No data provided.".
+- processDataError : Cette fonction prend un tableau de données en entrée et effectue une opération sur chaque élément du tableau, en multipliant chaque élément par 2. Si le tableau est vide ou non défini, elle lance une erreur avec le message "Invalid data provided.".
 
 2. Les cas de test :
    
