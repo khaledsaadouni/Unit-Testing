@@ -42,9 +42,10 @@ et voila le test passe.
 ### Exercice 2 : Écrire des tests unitaires pour une fonction de tri.
 
 1. La fonction trier en JS.
+   
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/ae493795-779c-4180-8e55-dbbc35435f02)
 
-2. Cas de test.
+3. Cas de test.
 
    ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8bd5af9a-2783-405e-a79e-5c81dd2bc981)
    
@@ -77,6 +78,7 @@ La fonction expect(value).toEqual(expected): Vérifie si value est égal à expe
 ### Exercice4 :
 1.La fonction fetchRandomUser() utilise l'API "Random User Generator" pour récupérer les données d'un utilisateur aléatoire.
 Elle renvoie un objet JSON contenant des informations sur cet utilisateur.
+
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/9cbd6a1e-5454-4605-bf24-1cf14229931f)
 
 2.La fonction de test :
@@ -87,7 +89,8 @@ Elle renvoie un objet JSON contenant des informations sur cet utilisateur.
 
    ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/d0b84999-dd94-4ba7-8b1b-5cc546e57a23)
 
-5. Couverture de code : 
+5. Couverture de code :
+   
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/499db217-f499-4914-9279-531022d8d128)
 
 Il permet la vérification du taux de code couvert par les tests unitaires – un indicateur de qualité de logiciel de plus en plus présent dans les projets
