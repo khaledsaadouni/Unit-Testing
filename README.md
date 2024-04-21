@@ -39,3 +39,29 @@ et voila le test passe.
 
 ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/691e4bba-eb9c-4f85-926d-1ff7819ae8fc)
 
+### Exercice 2 : Écrire des tests unitaires pour une fonction de tri.
+
+1. La fonction trier en JS.
+   ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/ae493795-779c-4180-8e55-dbbc35435f02)
+
+3.  cas de test.
+
+   ![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8bd5af9a-2783-405e-a79e-5c81dd2bc981)
+   
+La fonction expect(value).toEqual(expected): Vérifie si value est égal à expected en effectuant une comparaison en profondeur pour les tableaux.
+5. Couverture des cas de test :
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/50118c8e-0c7f-4f2b-aaa3-91b5bc7defdc)
+
+### Exercice 3 : Test au valeurs limites : Boundary testing.
+
+1.La fonction isPriceInRange(price, min, max) vérifie si un prix donné se situe dans une plage donnée.
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/8ae24f56-55a0-4aa8-8125-2f7b1cd8b0ad)
+
+2.Les cas de test pour cette fonction en couvrant les limites de la plage :
+
+![image](https://github.com/khaledsaadouni/Unit-Testing/assets/69814778/620c65dc-0772-4164-b567-23ade1dcaf0d)
+
+
+
